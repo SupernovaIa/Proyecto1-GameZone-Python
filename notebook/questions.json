@@ -1,0 +1,140 @@
+{
+    "categories": {
+      "Artificial Intelligence": {
+        "questions": [
+          {
+            "question": "Which of the following is a type of machine learning?",
+            "options": {
+              "A": "Supervised Learning",
+              "B": "Monitored Learning",
+              "C": "Controlled Learning",
+              "D": "Targeted Learning"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What does 'NLP' stand for in AI?",
+            "options": {
+              "A": "Natural Language Processing",
+              "B": "Neural Learning Program",
+              "C": "Network Logic Processing",
+              "D": "Numerical Learning Platform"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which of these is a common neural network architecture?",
+            "options": {
+              "A": "Decision Trees",
+              "B": "Recurrent Neural Networks (RNN)",
+              "C": "Support Vector Machines",
+              "D": "Random Forest"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      },
+      "Data Science": {
+        "questions": [
+          {
+            "question": "Which programming language is most commonly used in Data Science?",
+            "options": {
+              "A": "Java",
+              "B": "Python",
+              "C": "C++",
+              "D": "Ruby"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does the term 'EDA' stand for in data analysis?",
+            "options": {
+              "A": "Exploratory Data Analytics",
+              "B": "Enhanced Data Assimilation",
+              "C": "Exploratory Data Analysis",
+              "D": "Exact Data Algorithms"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which of the following is a measure of the spread of data?",
+            "options": {
+              "A": "Mean",
+              "B": "Standard Deviation",
+              "C": "Mode",
+              "D": "Median"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      },
+      "Marketing": {
+        "questions": [
+          {
+            "question": "What is the primary focus of 'Content Marketing'?",
+            "options": {
+              "A": "Selling directly to customers",
+              "B": "Creating and sharing valuable content",
+              "C": "Developing TV commercials",
+              "D": "Running paid ads"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which of the following is a type of digital marketing?",
+            "options": {
+              "A": "Billboard Advertising",
+              "B": "Email Marketing",
+              "C": "Radio Broadcasting",
+              "D": "Print Media"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does 'SEO' stand for in digital marketing?",
+            "options": {
+              "A": "Search Engine Optimization",
+              "B": "Social Engagement Outreach",
+              "C": "Sales Enablement Operations",
+              "D": "Service Event Optimization"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      },
+      "Physics": {
+        "questions": [
+          {
+            "question": "What is the speed of light in a vacuum?",
+            "options": {
+              "A": "299,792 km/s",
+              "B": "150,000 km/s",
+              "C": "1,080 km/h",
+              "D": "3,000,000 km/s"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What does Einstein's equation E = mc² describe?",
+            "options": {
+              "A": "The relationship between force and motion",
+              "B": "The relationship between energy and mass",
+              "C": "The speed of sound in air",
+              "D": "The power of a magnet"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the unit of electrical resistance?",
+            "options": {
+              "A": "Volt",
+              "B": "Watt",
+              "C": "Ohm",
+              "D": "Ampere"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    }
+  }  
