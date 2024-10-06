@@ -1,5 +1,7 @@
 from src.sink_fleet import SinkFleet
 from src.rock_paper_scissors import SpockGame
+from src.hangman import Hangman
+from src.tictactoe import Tictactoe
 
 def menu():
 
@@ -10,6 +12,18 @@ def menu():
         game = SpockGame(rounds)
         game.play()
 
+    elif g == '2':
+        lives = int(input("Select the amount of lives:"))
+        game = Hangman(lives)
+        game.play()
+
+    elif g == '3':
+        game = Tictactoe()
+        game.play()
+
+    elif g == '4':
+        pass
+    
     elif g == '5':
         game = SinkFleet()
         game.play()
