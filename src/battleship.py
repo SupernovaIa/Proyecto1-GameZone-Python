@@ -48,7 +48,7 @@ class Ship:
     
 
 
-class SinkFleet():
+class Battleship:
     
     def __init__(self):
 

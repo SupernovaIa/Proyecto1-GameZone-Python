@@ -1,5 +1,5 @@
-from src.sink_fleet import SinkFleet
-from src.rock_paper_scissors import SpockGame
+from src.battleship import Battleship
+from src.spock_game import SpockGame
 from src.hangman import Hangman
 from src.tictactoe import Tictactoe
 
@@ -25,5 +25,5 @@ def menu():
         pass
     
     elif g == '5':
-        game = SinkFleet()
+        game = Battleship()
         game.play()
