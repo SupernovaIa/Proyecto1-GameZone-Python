@@ -1,140 +1,524 @@
 {
-    "categories": {
-      "Artificial Intelligence": {
-        "questions": [
-          {
-            "question": "Which of the following is a type of machine learning?",
-            "options": {
-              "A": "Supervised Learning",
-              "B": "Monitored Learning",
-              "C": "Controlled Learning",
-              "D": "Targeted Learning"
-            },
-            "correct_answer": "A"
+  "categories": {
+    "Artificial Intelligence": {
+      "questions": [
+        {
+          "question": "Which of the following is a type of machine learning?",
+          "options": {
+            "A": "Supervised Learning",
+            "B": "Monitored Learning",
+            "C": "Controlled Learning",
+            "D": "Targeted Learning"
           },
-          {
-            "question": "What does 'NLP' stand for in AI?",
-            "options": {
-              "A": "Natural Language Processing",
-              "B": "Neural Learning Program",
-              "C": "Network Logic Processing",
-              "D": "Numerical Learning Platform"
-            },
-            "correct_answer": "A"
+          "correct_answer": "A"
+        },
+        {
+          "question": "What does 'NLP' stand for in AI?",
+          "options": {
+            "A": "Natural Language Processing",
+            "B": "Neural Learning Program",
+            "C": "Network Logic Processing",
+            "D": "Numerical Learning Platform"
           },
-          {
-            "question": "Which of these is a common neural network architecture?",
-            "options": {
-              "A": "Decision Trees",
-              "B": "Recurrent Neural Networks (RNN)",
-              "C": "Support Vector Machines",
-              "D": "Random Forest"
-            },
-            "correct_answer": "B"
-          }
-        ]
-      },
-      "Data Science": {
-        "questions": [
-          {
-            "question": "Which programming language is most commonly used in Data Science?",
-            "options": {
-              "A": "Java",
-              "B": "Python",
-              "C": "C++",
-              "D": "Ruby"
-            },
-            "correct_answer": "B"
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which of these is a common neural network architecture?",
+          "options": {
+            "A": "Decision Trees",
+            "B": "Recurrent Neural Networks (RNN)",
+            "C": "Support Vector Machines",
+            "D": "Random Forest"
           },
-          {
-            "question": "What does the term 'EDA' stand for in data analysis?",
-            "options": {
-              "A": "Exploratory Data Analytics",
-              "B": "Enhanced Data Assimilation",
-              "C": "Exploratory Data Analysis",
-              "D": "Exact Data Algorithms"
-            },
-            "correct_answer": "C"
+          "correct_answer": "B"
+        },
+        {
+          "question": "Which AI approach is based on mimicking the brain's neural networks?",
+          "options": {
+            "A": "Deep Learning",
+            "B": "Symbolic AI",
+            "C": "Genetic Algorithms",
+            "D": "Fuzzy Logic"
           },
-          {
-            "question": "Which of the following is a measure of the spread of data?",
-            "options": {
-              "A": "Mean",
-              "B": "Standard Deviation",
-              "C": "Mode",
-              "D": "Median"
-            },
-            "correct_answer": "B"
-          }
-        ]
-      },
-      "Marketing": {
-        "questions": [
-          {
-            "question": "What is the primary focus of 'Content Marketing'?",
-            "options": {
-              "A": "Selling directly to customers",
-              "B": "Creating and sharing valuable content",
-              "C": "Developing TV commercials",
-              "D": "Running paid ads"
-            },
-            "correct_answer": "B"
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which term refers to AI systems that can learn from data without being explicitly programmed?",
+          "options": {
+            "A": "Machine Learning",
+            "B": "Expert Systems",
+            "C": "Heuristics",
+            "D": "Classical AI"
           },
-          {
-            "question": "Which of the following is a type of digital marketing?",
-            "options": {
-              "A": "Billboard Advertising",
-              "B": "Email Marketing",
-              "C": "Radio Broadcasting",
-              "D": "Print Media"
-            },
-            "correct_answer": "B"
+          "correct_answer": "A"
+        },
+        {
+          "question": "In reinforcement learning, what is the agent trying to maximize?",
+          "options": {
+            "A": "Reward",
+            "B": "Penalty",
+            "C": "Learning rate",
+            "D": "Accuracy"
           },
-          {
-            "question": "What does 'SEO' stand for in digital marketing?",
-            "options": {
-              "A": "Search Engine Optimization",
-              "B": "Social Engagement Outreach",
-              "C": "Sales Enablement Operations",
-              "D": "Service Event Optimization"
-            },
-            "correct_answer": "A"
-          }
-        ]
-      },
-      "Physics": {
-        "questions": [
-          {
-            "question": "What is the speed of light in a vacuum?",
-            "options": {
-              "A": "299,792 km/s",
-              "B": "150,000 km/s",
-              "C": "1,080 km/h",
-              "D": "3,000,000 km/s"
-            },
-            "correct_answer": "A"
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which of these is an example of an AI application in healthcare?",
+          "options": {
+            "A": "Diagnosis systems",
+            "B": "Autonomous vehicles",
+            "C": "Recommendation engines",
+            "D": "Natural disaster prediction"
           },
-          {
-            "question": "What does Einstein's equation E = mc² describe?",
-            "options": {
-              "A": "The relationship between force and motion",
-              "B": "The relationship between energy and mass",
-              "C": "The speed of sound in air",
-              "D": "The power of a magnet"
-            },
-            "correct_answer": "B"
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which of the following is a type of unsupervised learning?",
+          "options": {
+            "A": "Clustering",
+            "B": "Classification",
+            "C": "Regression",
+            "D": "Decision Trees"
           },
-          {
-            "question": "What is the unit of electrical resistance?",
-            "options": {
-              "A": "Volt",
-              "B": "Watt",
-              "C": "Ohm",
-              "D": "Ampere"
-            },
-            "correct_answer": "C"
-          }
-        ]
-      }
+          "correct_answer": "A"
+        },
+        {
+          "question": "What does 'GAN' stand for in AI?",
+          "options": {
+            "A": "Generative Adversarial Network",
+            "B": "Generalized AI Network",
+            "C": "Gradient Augmented Neural-net",
+            "D": "Global Algorithmic Node"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which AI field focuses on designing machines that mimic human conversation?",
+          "options": {
+            "A": "Chatbots",
+            "B": "Robotic Process Automation",
+            "C": "Computer Vision",
+            "D": "Recommendation Systems"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Data Science": {
+      "questions": [
+        {
+          "question": "Which programming language is most commonly used in Data Science?",
+          "options": {
+            "A": "Java",
+            "B": "Python",
+            "C": "C++",
+            "D": "Ruby"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "What does the term 'EDA' stand for in data analysis?",
+          "options": {
+            "A": "Exploratory Data Analytics",
+            "B": "Enhanced Data Assimilation",
+            "C": "Exploratory Data Analysis",
+            "D": "Exact Data Algorithms"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Which of the following is a measure of the spread of data?",
+          "options": {
+            "A": "Mean",
+            "B": "Standard Deviation",
+            "C": "Mode",
+            "D": "Median"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "What is the term for data that has missing or null values?",
+          "options": {
+            "A": "Sparse Data",
+            "B": "Outliers",
+            "C": "Invalid Data",
+            "D": "Dirty Data"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question": "What type of chart is best for showing the distribution of a single variable?",
+          "options": {
+            "A": "Histogram",
+            "B": "Scatter Plot",
+            "C": "Line Chart",
+            "D": "Pie Chart"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which technique is used to reduce the number of variables in a dataset?",
+          "options": {
+            "A": "Principal Component Analysis (PCA)",
+            "B": "Correlation",
+            "C": "Normalization",
+            "D": "Sampling"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which of the following is an example of a supervised learning algorithm?",
+          "options": {
+            "A": "K-Means",
+            "B": "Linear Regression",
+            "C": "Apriori",
+            "D": "DBSCAN"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "What is the purpose of cross-validation in data science?",
+          "options": {
+            "A": "To test a model’s generalizability",
+            "B": "To reduce overfitting",
+            "C": "To enhance computational speed",
+            "D": "Both A and B"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question": "Which type of model is used to predict a binary outcome?",
+          "options": {
+            "A": "Logistic Regression",
+            "B": "K-Nearest Neighbors",
+            "C": "K-Means Clustering",
+            "D": "PCA"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "In data science, what does 'Big Data' refer to?",
+          "options": {
+            "A": "Extremely large datasets",
+            "B": "Highly accurate data",
+            "C": "Encrypted data",
+            "D": "Structured data only"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Marketing": {
+      "questions": [
+        {
+          "question": "What is the primary focus of 'Content Marketing'?",
+          "options": {
+            "A": "Selling directly to customers",
+            "B": "Creating and sharing valuable content",
+            "C": "Developing TV commercials",
+            "D": "Running paid ads"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "Which of the following is a type of digital marketing?",
+          "options": {
+            "A": "Billboard Advertising",
+            "B": "Email Marketing",
+            "C": "Radio Broadcasting",
+            "D": "Print Media"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "What does 'SEO' stand for in digital marketing?",
+          "options": {
+            "A": "Search Engine Optimization",
+            "B": "Social Engagement Outreach",
+            "C": "Sales Enablement Operations",
+            "D": "Service Event Optimization"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is a key metric used to measure email marketing performance?",
+          "options": {
+            "A": "Open Rate",
+            "B": "Bounce Rate",
+            "C": "Conversion Rate",
+            "D": "All of the above"
+          },
+          "correct_answer": "D"
+        },
+        {
+          "question": "Which social media platform is known for its B2B marketing opportunities?",
+          "options": {
+            "A": "LinkedIn",
+            "B": "Facebook",
+            "C": "Instagram",
+            "D": "Twitter"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which of the following is an example of influencer marketing?",
+          "options": {
+            "A": "Hiring a celebrity to endorse your product",
+            "B": "Using Google Ads",
+            "C": "Creating a viral video",
+            "D": "Developing a mobile app"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What does the term 'PPC' refer to in digital marketing?",
+          "options": {
+            "A": "Pay-Per-Click",
+            "B": "Performance-Priced Content",
+            "C": "Premium Product Campaign",
+            "D": "Post-Promotion Cost"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which digital marketing strategy focuses on unpaid search results?",
+          "options": {
+            "A": "SEO",
+            "B": "PPC",
+            "C": "Affiliate Marketing",
+            "D": "Retargeting"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is a buyer persona in marketing?",
+          "options": {
+            "A": "A detailed description of an ideal customer",
+            "B": "A market segment",
+            "C": "A company's brand identity",
+            "D": "A celebrity endorser"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is 'Conversion Rate Optimization' (CRO)?",
+          "options": {
+            "A": "The process of increasing the percentage of visitors who take a desired action",
+            "B": "The amount spent on paid ads",
+            "C": "The number of clicks on a website",
+            "D": "A method to increase email subscribers"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Physics": {
+      "questions": [
+        {
+          "question": "What is the speed of light in a vacuum?",
+          "options": {
+            "A": "299,792 km/s",
+            "B": "150,000 km/s",
+            "C": "1,080 km/h",
+            "D": "3,000,000 km/s"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What does Einstein's equation E = mc² describe?",
+          "options": {
+            "A": "The relationship between force and motion",
+            "B": "The relationship between energy and mass",
+            "C": "The speed of sound in air",
+            "D": "The power of a magnet"
+          },
+          "correct_answer": "B"
+        },
+        {
+          "question": "What is the unit of electrical resistance?",
+          "options": {
+            "A": "Volt",
+            "B": "Watt",
+            "C": "Ohm",
+            "D": "Ampere"
+          },
+          "correct_answer": "C"
+        },
+        {
+          "question": "Which of the following particles are found in the nucleus of an atom?",
+          "options": {
+            "A": "Protons and Neutrons",
+            "B": "Electrons and Neutrons",
+            "C": "Protons and Electrons",
+            "D": "Electrons only"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which force keeps planets in orbit around the sun?",
+          "options": {
+            "A": "Gravitational Force",
+            "B": "Magnetic Force",
+            "C": "Nuclear Force",
+            "D": "Frictional Force"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is the unit of frequency?",
+          "options": {
+            "A": "Hertz",
+            "B": "Joule",
+            "C": "Tesla",
+            "D": "Newton"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which of these is an example of a scalar quantity?",
+          "options": {
+            "A": "Mass",
+            "B": "Velocity",
+            "C": "Force",
+            "D": "Acceleration"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is the first law of thermodynamics?",
+          "options": {
+            "A": "Energy cannot be created or destroyed",
+            "B": "For every action, there is an equal and opposite reaction",
+            "C": "The force is equal to mass times acceleration",
+            "D": "The entropy of a system increases over time"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which scientist is famous for the law of universal gravitation?",
+          "options": {
+            "A": "Isaac Newton",
+            "B": "Albert Einstein",
+            "C": "Niels Bohr",
+            "D": "Galileo Galilei"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which of the following is a unit of power?",
+          "options": {
+            "A": "Watt",
+            "B": "Newton",
+            "C": "Pascal",
+            "D": "Joule"
+          },
+          "correct_answer": "A"
+        }
+      ]
+    },
+    "Mathematics": {
+      "questions": [
+        {
+          "question": "What is the value of Pi (π) up to two decimal places?",
+          "options": {
+            "A": "3.14",
+            "B": "3.15",
+            "C": "2.71",
+            "D": "1.61"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which of the following is a prime number?",
+          "options": {
+            "A": "17",
+            "B": "20",
+            "C": "25",
+            "D": "40"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is the derivative of x²?",
+          "options": {
+            "A": "2x",
+            "B": "x",
+            "C": "x²",
+            "D": "2"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is the integral of 1/x?",
+          "options": {
+            "A": "ln|x| + C",
+            "B": "x²/2",
+            "C": "1/x²",
+            "D": "e^x"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "Which of the following is the Pythagorean theorem?",
+          "options": {
+            "A": "a² + b² = c²",
+            "B": "a² - b² = c²",
+            "C": "a³ + b³ = c³",
+            "D": "2a + 2b = c"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is the sum of the angles in a triangle?",
+          "options": {
+            "A": "180 degrees",
+            "B": "90 degrees",
+            "C": "360 degrees",
+            "D": "270 degrees"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is the area of a circle with radius r?",
+          "options": {
+            "A": "πr²",
+            "B": "2πr",
+            "C": "r²",
+            "D": "πr"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is the value of e (Euler’s number) approximately?",
+          "options": {
+            "A": "2.71",
+            "B": "3.14",
+            "C": "1.61",
+            "D": "2.15"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is the quadratic formula?",
+          "options": {
+            "A": "(-b ± √(b² - 4ac)) / 2a",
+            "B": "a² + b² = c²",
+            "C": "x² + y² = z²",
+            "D": "ax + by = c"
+          },
+          "correct_answer": "A"
+        },
+        {
+          "question": "What is the standard deviation a measure of?",
+          "options": {
+            "A": "Spread of data around the mean",
+            "B": "Average value",
+            "C": "The maximum value",
+            "D": "Skewness"
+          },
+          "correct_answer": "A"
+        }
+      ]
     }
-  }  
+  }
+}
