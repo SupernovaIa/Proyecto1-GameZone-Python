@@ -1,14 +1,12 @@
-from src.support import jugar
-
-jugar()
+from src.sink_fleet import Ship, SinkFleet
 
 
 
-"""
+
 def main():
-    print("Welcome")
+    game = SinkFleet()
+
+    game.play()
 
 if __name__ == "__main__":
     main()
-
-"""
