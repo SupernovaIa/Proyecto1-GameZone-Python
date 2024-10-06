@@ -84,23 +84,26 @@ class SinkFleet():
         self.attacks = {"player": [], "machine": []}
 
 
-    def show_board(self, side):
+    def show_board(self, side: str, delay = 0):
         """
         Displays the board for the specified side (player or machine).
 
         Parameters:
         - side (str): The side whose board is to be displayed. Should be either 'player', 'machine' or 'machine_shown'.
+        - delay (float): Delay to print every row in seconds. Default is 0.
         """
 
         # Displays player board
         if side == "player":
             for row in self.player_board:
                 print("".join(row))
+                time.sleep(delay)
 
         # Displays machine board with shown ships
         elif side == "machine_shown": 
             for row in self.machine_board:
                 print("".join(row))
+                time.sleep(delay)
 
         # Displays machine board with hidden ships
         elif side == "machine":
@@ -109,6 +112,7 @@ class SinkFleet():
                     if row[i] == "🟪":
                         row[i] = "🟦"
                 print("".join(row))
+                time.delay(delay)
                  
         else:
             print("Side not valid. Try either 'player', 'machine' or 'machine_shown.")
@@ -443,7 +447,7 @@ class SinkFleet():
         # Set the fleet
         self.set_machine_ships()
         print("Time to set up our fleet. This is the template:")
-        self.show_board('player')
+        self.show_board('player', delay = 0.2)
         self.set_player_ships()
 
         # Clear console

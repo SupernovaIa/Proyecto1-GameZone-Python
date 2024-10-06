@@ -1,12 +1,7 @@
-from src.sink_fleet import Ship, SinkFleet
-
-
-
+from src.menu import menu
 
 def main():
-    game = SinkFleet()
-
-    game.play()
-
+    menu()
+    
 if __name__ == "__main__":
     main()
