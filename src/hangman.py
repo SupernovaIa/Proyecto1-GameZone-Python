@@ -95,7 +95,7 @@ class Hangman:
         # Clear console
         os.system('cls' if os.name == 'nt' else 'clear')
 
-        print("Welcome to the Hangman Game 🎻")
+        print("Welcome to the Hangman Game 🎻😵")
         time.sleep(1)
         # Show the display
         print("---------------------------")

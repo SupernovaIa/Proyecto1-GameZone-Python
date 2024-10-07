@@ -85,7 +85,7 @@ class SpockGame:
         # Clear console
         os.system('cls' if os.name == 'nt' else 'clear')
 
-        print("Welcome to the Spock Game 😊")
+        print("Welcome to the Spock Game ✋🪨✂️🦎🖖")
         print("--------------------------")
         print(f"The first player to score {self.rounds} points wins")
 

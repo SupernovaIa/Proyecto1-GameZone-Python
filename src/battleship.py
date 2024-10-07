@@ -112,7 +112,7 @@ class Battleship:
                     if row[i] == "🟪":
                         row[i] = "🟦"
                 print("".join(row))
-                time.delay(delay)
+                time.sleep(delay)
                  
         else:
             print("Side not valid. Try either 'player', 'machine' or 'machine_shown.")

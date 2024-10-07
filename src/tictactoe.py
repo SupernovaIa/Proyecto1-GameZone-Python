@@ -167,7 +167,7 @@ class Tictactoe:
         Runs the main game loop, alternating turns between Player 1 and Player 2, and checking for a win or draw after each turn.
         """
 
-        print("Welmcome to Tic Tac Toe! 😍")
+        print("Welcome to Tic Tac Toe! ❌⭕")
         time.sleep(1)
         print("==========================")
         time.sleep(1)
